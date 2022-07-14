@@ -1,0 +1,120 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar * {
+    display: inline-block;
+}
+
+#navbar p {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 10%;
+}
+
+#links {
+    padding-right: 10%;
+}
+
+#links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 24px;
+}
+
+#prvaSekcija {
+    height: 500px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+
+#tekstDio {
+    width: 38%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#heroTekst {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#t2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#fejkGumb {
+    background-color: #3882F6;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fejkGumb a {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#prvaSekcija img {
+    width: 38%;
+    padding: 0;
+    margin: 0;
+}
+
+#drugaSekcija {
+    height: 500px;
+    background-color: #F9FAF8;
+}
+
+#drugaSekcija h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#horizontalniBox {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.vertikalniBox img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.vertikalniBox p {
+    width: 150px;
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+}
