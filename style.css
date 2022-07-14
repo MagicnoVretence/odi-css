@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, sans-serif;
+    margin: 0;
 }
 
 #navbar {
@@ -17,10 +18,12 @@
     font-size: 24px;
     color: #F9FAF8;
     padding-left: 10%;
+    padding-top: 18px;
 }
 
 #links {
     padding-right: 10%;
+    padding-top: 18px;
 }
 
 #links a {
@@ -117,4 +120,91 @@
     font-size: 16px;
     color: gray;
     text-align: center;
+}
+
+#trecaSekcija {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#t3 {
+    width: 80%;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#t4 {
+    width: 80%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#cetvrtaSekcija {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#kutija1 {
+    height: 150px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kutija2 {
+    padding-left: 10%;
+}
+
+#fejkGumb2 {
+    margin-right: 10%;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fejkGumb2 a {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#t5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#t6 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #F9FAF8;
+    font-size: 18px;
 }
